@@ -14,7 +14,12 @@ public class CardTest
    testDeck.deal();
    testDeck.showPiles();
    
-
+   
+   War testWar = new War();
+   testWar.order();
+   testWar.showDeck();
+   testWar.deal();
+   testWar.play();
 
    
    
