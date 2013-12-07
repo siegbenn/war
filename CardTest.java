@@ -4,22 +4,17 @@ public class CardTest
    {
    
    // Create an array of Ship references
-   Deck testDeck = new Deck();
-   testDeck.order();
-   
-   testDeck.showDeck();
-   
-   testDeck.shuffle();
-   testDeck.showDeck();
-   testDeck.deal();
-   testDeck.showPiles();
-   
-   
    War testWar = new War();
-   testWar.order();
-   testWar.showDeck();
-   testWar.deal();
+   testWar.setup();
+   testWar.showPiles();
+   System.out.println("----------");
    testWar.play();
+   System.out.println("----------");
+   testWar.showPiles();
+   System.out.println("----------");
+   testWar.play();
+   System.out.println("----------");
+   testWar.showPiles();
 
    
    
