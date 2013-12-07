@@ -1,4 +1,12 @@
+// Bennett Siegel
+// CS110
+// War class.
+
 import java.util.*;
+
+/**
+   The War class holds methods to play a game of war with two people.
+*/
 
 class War extends Deck
 {
@@ -19,7 +27,10 @@ class War extends Deck
       super.deal();
    }
      
-   
+   /**
+      play method
+      Deals a card to each player then checks for a winner
+   */
    public void play()
    {
       draw();
@@ -66,7 +77,10 @@ class War extends Deck
    }
       
    
-   
+   /**
+      draw method
+      Draws a card for each player and sets values.
+   */
    public void draw()
    {
      card1 = pile1.elementAt(position1);
